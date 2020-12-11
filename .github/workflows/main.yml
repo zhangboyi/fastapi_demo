@@ -29,4 +29,4 @@ jobs:
         pip install -r requirements.txt
     - name: Build and publish
       run: |
-        uvicorn app.main:app --reload
+        python app/main.py
