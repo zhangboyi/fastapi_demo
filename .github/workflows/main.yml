@@ -30,4 +30,4 @@ jobs:
         pip install -r requirements.txt
     - name: Build and publish
       run: |
-        uvicorn app.main:app --host='0.0.0.0' --port=80
+        uvicorn app.main:app
